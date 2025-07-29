@@ -1,1 +1,1 @@
-# Flying by Touch: Whisker-Based Tactile Navigation on Drones.
+# Whisker-based Tactile Flight for Tiny Drones.
