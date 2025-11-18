@@ -1,0 +1,10 @@
+hydra-core
+omegaconf
+wandb
+imageio
+plotly
+einops
+pandas
+moviepy
+av
+torchrl==0.3.1
