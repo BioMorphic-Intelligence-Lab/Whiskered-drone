@@ -20,7 +20,7 @@ First, install **OmniDrones** following the official guide:
 
 ## Simulation Setup
 
-1. Download the following directory from OmniDrones:
+1. Download the following directory from:
 sim/examples/no_object
 
 2. Place the folder in the example directory.
