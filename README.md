@@ -1,6 +1,6 @@
 # Whisker-Based Tactile Flight for Tiny Drones
 
-This repository contains the simulation and real flight code for the paper **“Whisker-Based Tactile Flight for Tiny Drones”**.
+This repository contains the simulation and real flight code for the paper **“Whisker-Based Tactile Flight for Tiny Drones”**, https://arxiv.org/abs/2510.03119.
 
 **Note:** The full source code will be released upon acceptance of the article.
 
