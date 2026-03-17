@@ -1,0 +1,8 @@
+position_gain: [4, 4, 50] 
+velocity_gain: [2, 2, 25]
+attitude_gain: [0.01,0.01,0.004] 
+angular_rate_gain: [0.001,0.001,0.002]
+
+
+
+
