@@ -1,35 +1,89 @@
 # Whisker-Based Tactile Flight for Tiny Drones
 
-This repository contains the simulation and real flight code for the paper **“Whisker-Based Tactile Flight for Tiny Drones”**, https://arxiv.org/abs/2510.03119.
+This repository contains the **simulation and real-world implementation** for the paper:
 
-**Note:** The full source code will be released upon acceptance of the article.
+**Whisker-Based Tactile Flight for Tiny Drones**
 
----
+Paper:  
+https://arxiv.org/abs/2510.03119
 
-## Installation
-
-First, install **OmniDrones** following the official guide:
-
-- OmniDrones Documentation:  
-  https://omnidrones.readthedocs.io/en/latest/
-
-- Related paper:  
-  https://ieeexplore.ieee.org/abstract/document/10409589
+The goal of this project is to enable **tiny drones to perform tactile navigation exploration using whisker-like sensors** and active exploration strategies.
 
 ---
 
-## Simulation Setup
+# Repository Overview
+```
+Whiskered-drone
+│
+├── simulation
+│ └── WhiskeredDroneSim
+│   ├── IsaacLab
+│   └── OmniDrones_whiskers
+│
+└── real_world
+```
+### Simulation
 
-1. Download the following directory from:
-sim/examples/no_object
+Simulation code is located in:
 
-2. Place the folder in the example directory.
+`simulation/WhiskeredDroneSim/`
+
+It contains two main components:
+
+**IsaacLab**  
+The base simulation framework built on top of **Isaac Sim**.
+
+**OmniDrones_whiskers**  
+A modified drone simulation framework based on **OmniDrones**, integrated with **Isaac Sim 4.1** and **Isaac Lab**, and extended with modules for whisker-based exploration.
+
+Note that **Isaac Sim 4.1 is not included in this repository** and must be downloaded separately by users.
+
+Detailed installation and setup instructions are provided in:
+
+`simulation/README.md`
 
 ---
 
-## Running the Simulation
+### Real-world
 
-To start the simulation, run:
+The implementation used on the physical drone platform is located in:
+real_world/
 
-```bash
-python whiskered_drone_exploration_GPIS.py
+This includes the perception, planning, and control code and sensor integration used in real-world experiments.
+
+---
+
+
+# Citation
+
+If you use this code in your research, please cite:
+```bibtex
+@article{ye2025whisker,
+  title={Whisker-based Tactile Flight for Tiny Drones},
+  author={Ye, Chaoxiang and de Croon, Guido and Hamaza, Salua},
+  journal={arXiv preprint arXiv:2510.03119},
+  year={2025}
+}
+```
+If you use the [OmniDrones](https://github.com/btx0424/OmniDrones) framework, please also cite their work.
+
+
+---
+
+## Acknowledgement
+
+This project builds upon the following open-source frameworks:
+
+- [Isaac Sim](https://developer.nvidia.com/isaac-sim)
+- [Isaac Lab](https://github.com/isaac-sim/IsaacLab)
+- [OmniDrones](https://github.com/btx0424/OmniDrones)
+
+We thank the original authors for their contributions.
+
+---
+
+# License
+
+This repository follows the **MIT License** inherited from the OmniDrones project.
+
+See the LICENSE file for details.
