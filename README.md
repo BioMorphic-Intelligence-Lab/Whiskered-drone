@@ -21,6 +21,7 @@ Whiskered-drone
 │   └── OmniDrones_whiskers
 │
 └── real_world
+  └── crazyflie-firmware
 ```
 ### Simulation
 
@@ -49,7 +50,16 @@ Detailed installation and setup instructions are provided in:
 The implementation used on the physical drone platform is located in:
 real_world/
 
-This includes the perception, planning, and control code and sensor integration used in real-world experiments.
+It includes:
+
+- Modified Crazyflie firmware  
+- Whisker sensor interation  
+- Onboard tactile navigation and exploration  
+- Python scripts for running experiments  
+
+See:
+
+real_world/README.md
 
 ---
 

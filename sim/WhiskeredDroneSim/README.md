@@ -23,9 +23,9 @@ Recommended system:
 
 # 1. Install Isaac Sim 4.1
 
-Download Isaac Sim from NVIDIA:
+Download Isaac Sim from NVIDIA Download Archive:
 
-https://developer.nvidia.com/isaac-sim
+https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html
 
 After downloading, extract Isaac Sim into the following directory:
 ```

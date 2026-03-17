@@ -1,0 +1,181 @@
+{
+
+    "attitude":{
+        "name": "attitude",
+        "type": "CF",
+        "period": 20,
+        "variables": ["stabilizer.roll",
+                      "stabilizer.pitch",
+                      "stabilizer.yaw"],
+        "headers": ["roll", "pitch", "yaw"]
+    },
+
+    "motor":{
+        "name": "motor",
+        "type": "CF",
+        "period": 20,
+        "variables": ["motor.m1",
+                      "motor.m2",
+                      "motor.m3",
+                      "motor.m4"
+                      ],
+        "headers": ["motor1", "motor2", "motor3", "motor4"]
+    },
+
+    "state":{
+        "name": "state",
+        "type": "CF",
+        "period": 20,
+        "variables": ["stateEstimate.x",
+                      "stateEstimate.y",
+                      "stateEstimate.vx",
+                      "stateEstimate.vy"],
+        "headers": ["stateX", "stateY", "stateVX", "stateVY"]
+    },
+
+    "whisker1":{
+        "name": "whisker1",
+        "type": "CF",
+        "period": 20,
+        "variables": ["Whisker.Barometer1_1",
+                      "Whisker.Barometer1_2",
+                      "Whisker.Barometer1_3"],
+        "headers": ["whisker1_1", "whisker1_2", "whisker1_3"]
+    },
+
+    "whisker2":{
+        "name": "whisker2",
+        "type": "CF",
+        "period": 20,
+        "variables": ["Whisker1.Barometer2_1",
+                      "Whisker1.Barometer2_2",
+                      "Whisker1.Barometer2_3"],
+        "headers": ["whisker2_1", "whisker2_2", "whisker2_3"]
+    },
+
+    "PreWhisker1":{
+        "name": "PreWhisker1",
+        "type": "CF",
+        "period": 20,
+        "variables": ["app.PreprocessWhisker1_1",
+                      "app.PreprocessWhisker1_2",
+                      "app.PreprocessWhisker1_3"],
+        "headers": ["prewhisker1_1", "prewhisker1_2", "prewhisker1_3"]
+    },
+
+    "PreWhisker2":{
+        "name": "PreWhisker2",
+        "type": "CF",
+        "period": 20,
+        "variables": ["app.PreprocessWhisker2_1",
+                      "app.PreprocessWhisker2_2",
+                      "app.PreprocessWhisker2_3"],
+        "headers": ["prewhisker2_1", "prewhisker2_2", "prewhisker2_3"]
+    },
+
+    "MLPOUTPUT":{
+        "name": "MLPOUTPUT",
+        "type": "CF",
+        "period": 20,
+        "variables": ["app.MlpOutput1",
+                      "app.MlpOutput2"],
+        "headers": ["MLPwhisker1", "MLPwhisker2"]
+    },
+
+    "KFOUTPUT":{
+        "name": "KFOUTPUT",
+        "type": "CF",
+        "period": 20,
+        "variables": ["app.KFMlpOutput1",
+                      "app.KFMlpOutput2"],
+        "headers": ["KFwhisker1","KFwhisker2"]
+    },
+
+    "GPISLABEL":{
+        "name": "GPISLABEL",
+        "type": "CF",
+        "period": 20,
+        "variables": ["app.GpisLabel"],
+        "headers": ["gpislabel"]
+    },
+
+
+    "StateOuterLoop":{
+        "name": "StateOuterLoop",
+        "type": "CF",
+        "period": 20,
+        "variables": ["app.stateOuterLoop"],
+        "headers": ["stateouterloop"]
+    },
+
+    "orientation":{
+        "name": "orientation",
+        "type": "CF",
+        "period": 20,
+        "variables": ["stabilizer.yaw"],
+        "headers": ["yaw"]
+    },
+
+    "flow":{
+        "name": "flow",
+        "type": "CF",
+        "period": 20,
+        "variables": ["motion.deltaX",
+                      "motion.deltaY"],
+        "headers": ["flowX", "flowY"]
+    },
+    
+    "laser":{
+        "name": "laser",
+        "type": "CF",
+        "period": 20,
+        "variables": ["range.front"],
+        "headers": ["laserFront"]
+    },
+
+    "kalman":{
+        "name": "kalman",
+        "type": "CF",
+        "period": 20,
+        "variables": ["kalman.stateX",
+                      "kalman.stateY",
+                      "kalman.stateZ",
+                      "kalman.statePX",
+                      "kalman.statePY",
+                      "kalman.statePZ"],
+        "headers": ["kalX", "kalY", "kalZ", "kalPX", "kalPY", "kalPZ"]
+    },
+
+    "acc":{
+        "name": "acc",
+        "type": "CF",
+        "period": 20,
+        "variables": ["acc.x",
+                      "acc.y",
+                      "acc.z"],
+        "headers": ["accx", "accy", "accz"]
+    },
+
+
+    "otpos":{
+        "name": "otpos",
+        "type": "CF",
+        "period": 20,
+        "variables": ["locSrv.x",
+                      "locSrv.y",
+                      "locSrv.z"],
+        "headers": ["otX", "otY", "otZ"]
+    },
+
+
+    "mocap": {
+        "name": "mocap",
+        "type": "EXT",
+        "period": 20,
+        "variables": ["pos_x", "pos_y", "yaw"],
+        "headers": ["Position X", "Position Y", "yaw"]
+    }
+}
+
+
+

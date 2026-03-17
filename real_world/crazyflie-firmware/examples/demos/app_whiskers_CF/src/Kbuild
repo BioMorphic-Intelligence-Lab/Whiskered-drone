@@ -1,0 +1,6 @@
+obj-y += CF_OA.o
+obj-y += CF_whiskers_onboard.o
+obj-y += mlp.o
+obj-y += whisker_KF.o
+obj-y += utlz.o
+obj-y += GPIS.o
