@@ -107,5 +107,6 @@ Running Simulation
 
 Example command:
 ```
-python whiskered_drone_exploration_GPIS.py
+python whiskered_drone_exploration_GPIS.py env_rotation_deg=135
+
 ```
