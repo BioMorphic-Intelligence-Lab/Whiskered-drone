@@ -1,13 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.interpolate import griddata
-# from sklearn.gaussian_process import GaussianProcessRegressor
-# from sklearn.gaussian_process.kernels import Kernel
-from scipy.spatial import ConvexHull
-from matplotlib.patches import Rectangle
-import numpy as np
-import numpy as np
-from itertools import combinations
 
 class InverseMultiquadricKernel:
     def __init__(self, c=2.0):
