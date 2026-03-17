@@ -34,11 +34,11 @@ cd real_world/crazyflie-firmware/examples/demos/app_whiskers_CF
 4. Release after a few seconds  
 
 ### Step 3: Build and flash
-
+``
 make clean
 make -j 12
 make cload
-
+```
 
 ---
 
