@@ -7,7 +7,7 @@ This repository contains the **simulation and real-world implementation** for th
 Paper:  
 https://arxiv.org/abs/2510.03119
 
-The goal of this project is to enable **tiny drones to perform tactile navigation exploration using whisker-like sensors** and active exploration strategies.
+To enable **tiny drones to perform tactile navigation exploration using whisker sensors** and **active exploration** strategies.
 
 ---
 
